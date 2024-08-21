@@ -1,22 +1,25 @@
 {
   "description": "IntelliJ IDEA is a highly popular integrated development environment (IDE) developed by JetBrains.",
   "docker_registry": "https://ghcr.io/",
-  "name": "reoccurcat/intellij-idea-kasm:latest",
   "image_src": "intellij-idea.png",
+  "name": "reoccurcat/intellij-idea:latest",
   "run_config": {
-    "hostname": "kasm"
+    "user": 1000
   },
   "exec_config": {},
   "categories": [
     "Development"
   ],
-  "friendly_name": "IntelliJ IDEA Ultimate",
+  "friendly_name": "IntelliJ IDEA",
   "architecture": [
-    "amd64"
+    "amd64",
+    "arm64"
   ],
   "compatibility": [
     "1.13.x",
-    "1.14.x"
+    "1.14.x",
+    "1.15.x",
+    "1.16.x"
   ],
-  "uncompressed_size_mb": 2170
+  "uncompressed_size_mb": 2950
 }
