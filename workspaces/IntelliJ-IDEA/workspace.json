@@ -2,7 +2,7 @@
   "description": "IntelliJ IDEA is a highly popular integrated development environment (IDE) developed by JetBrains.",
   "docker_registry": "https://ghcr.io/",
   "image_src": "intellij-idea.png",
-  "name": "reoccurcat/intellij-idea:latest",
+  "name": "reoccurcat/intellij-idea:main",
   "run_config": {
     "user": 1000
   },
